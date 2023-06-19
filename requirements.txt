@@ -1,6 +1,5 @@
-python
-openpyxl
+python==3.10.9
+openpyxl==3.0.10
 nltk
-pyttsx3
 os
 pip==23.1.2
