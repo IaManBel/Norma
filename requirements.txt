@@ -3,3 +3,4 @@ openpyxl
 nltk
 pyttsx3
 os
+pip==23.1.2
