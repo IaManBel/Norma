@@ -7,7 +7,7 @@
 import openpyxl
 from openpyxl import load_workbook
 from openpyxl import Workbook
-import nltk
+#import nltk
 from nltk.corpus import stopwords
 import pyttsx3
 
