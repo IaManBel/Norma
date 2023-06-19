@@ -1,5 +1,5 @@
-python==3.10.9
+python==3.9
 openpyxl==3.0.10
-nltk
-os
-pip==22.0.3
+#nltk
+#os
+#pip==22.0.3
