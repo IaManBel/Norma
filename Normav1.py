@@ -25,7 +25,7 @@ answers_workbook = Workbook()
 answers_sheet = answers_workbook.active
 answers_sheet['A1'] = 'Question'
 answers_sheet['B1'] = 'Answer'
-row = 2  # Starting row to write answers
+row = 1  # Starting row to write answers
 
 # Initialize NLTK and download the required resources
 #nltk.download('stopwords')
