@@ -8,7 +8,7 @@ import openpyxl
 from openpyxl import load_workbook
 from openpyxl import Workbook
 #import nltk
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
 import pyttsx3
 
 # Load the questions Excel file
@@ -28,8 +28,8 @@ answers_sheet['B1'] = 'Answer'
 row = 2  # Starting row to write answers
 
 # Initialize NLTK and download the required resources
-nltk.download('stopwords')
-stop_words = set(stopwords.words('spanish'))
+#nltk.download('stopwords')
+#stop_words = set(stopwords.words('spanish'))
 
 # Initialize pyttsx3 for text-to-speech
 engine = pyttsx3.init()
