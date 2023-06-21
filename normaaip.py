@@ -7,8 +7,8 @@
 import openpyxl
 from openpyxl import load_workbook
 from openpyxl import Workbook
-import nltk
-from nltk.corpus import stopwords
+#import nltk
+#from nltk.corpus import stopwords
 
 # Load the questions Excel file
 questions_filename = 'questions.xlsx'
@@ -24,7 +24,7 @@ answers_workbook = Workbook()
 answers_sheet = answers_workbook.active
 answers_sheet['A1'] = 'Question'
 answers_sheet['B1'] = 'Answer'
-row = 2  # Starting row to write answers
+row = 1  # Starting row to write answers
 
 # Define a function to ask questions and save answers
 def ask_question(question):
@@ -35,8 +35,8 @@ def ask_question(question):
     row += 1  # Increment the row for the next answer
 
 # Initialize NLTK and download the required resources
-nltk.download('stopwords')
-stop_words = set(stopwords.words('english'))
+#nltk.download('stopwords')
+#stop_words = set(stopwords.words('english'))
 
 # Read the questions from the Excel file and ask them one by one
 for row_data in questions_sheet.iter_rows(values_only=True):
